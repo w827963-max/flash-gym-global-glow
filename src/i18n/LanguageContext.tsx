@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useCallback } from 'react';
 import { translations, type Language } from './translations';
 
-type TranslationData = typeof translations['en'];
+type TranslationData = typeof translations[Language];
 
 interface LanguageContextType {
   lang: Language;
