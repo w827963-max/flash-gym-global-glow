@@ -1,13 +1,13 @@
 import { useLanguage } from '@/i18n/LanguageContext';
-import gallery1 from '@/assets/gallery-1.jpg';
-import gallery2 from '@/assets/gallery-2.jpg';
-import gallery3 from '@/assets/gallery-3.jpg';
-import gallery4 from '@/assets/gallery-4.jpg';
-import gallery5 from '@/assets/gallery-5.jpg';
-import gallery6 from '@/assets/gallery-6.jpg';
+import gallery1 from '@/assets/gallery-1.png';
+import gallery2 from '@/assets/gallery-2.png';
+import gallery3 from '@/assets/gallery-3.png';
+import gallery4 from '@/assets/gallery-4.png';
+import gallery5 from '@/assets/gallery-5.png';
+import gallery6 from '@/assets/gallery-6.png';
 
 const images = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6];
-const alts = ['Strength area', 'Cardio zone', 'Free weights', 'Functional training', 'Workout', 'Stretching area'];
+const alts = ['Strength equipment area', 'Cardio zone', 'Dumbbells rack', 'Plate-loaded machines', 'Full gym floor', 'Functional training area'];
 
 const GallerySection = () => {
   const { t } = useLanguage();
